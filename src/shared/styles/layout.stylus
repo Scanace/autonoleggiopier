@@ -1,0 +1,101 @@
+// out: ../../../styles/layout.css, compress: true
+
+body
+  margin 0;padding 0;
+
+.app-wrapper
+  position absolute
+  top 0;bottom 0;left 0;right 0;
+
+  margin 25px;padding 0;
+  min-width 300px
+  max-width 900px
+
+  > header
+    position absolute
+    top 0;bottom auto;left 0;right 0;
+
+    margin 0;padding 0;
+
+    height auto
+
+    > h1
+      font-size 47.5px
+
+  > section
+    position absolute
+    top 50px;bottom 33px;left 0;right 0;
+
+    margin 25px 0;padding 0;
+
+    > header
+      margin 6.5px 0 5px 0
+      > h2
+        margin 0;padding 0;
+
+        font-size 18px
+
+    p
+      margin 5px 0 2.5px 0;padding 0;
+
+    img
+      width calc(100% + 50px)
+      margin-left -25px
+
+    menu
+      position absolute
+      top auto;bottom 0;left 0;right 0;
+      margin 0;padding 0;
+
+
+      ul
+        margin 0;padding 0;
+        list-style-type none
+        text-align center
+        font-size 18px
+
+        li
+          margin 0;padding 0;
+
+          a
+            color var(--primary-color)
+            text-decoration none
+
+        > li:not(:last-child)
+          margin-bottom 12.5px
+
+
+  > footer
+    position absolute
+    top auto;bottom 0;left 0;right 0;
+
+    margin 0;padding 0;
+
+    height auto
+
+    > a
+      padding 5px 12px
+      min-width 100px
+      max-width 100px
+
+      text-decoration none
+      font-size 18px
+
+    .left
+      position absolute
+      bottom 0
+      right 50%
+      margin-right 12.5px
+
+    .right
+      position absolute
+      bottom 0
+      left 50%
+      margin-left 12.5px
+
+
+
+@media screen and (min-width: 950px)
+  .app-wrapper
+    top 0;bottom 0;left 0;right 0;
+    margin 25px auto

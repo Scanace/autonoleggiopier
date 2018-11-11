@@ -1,0 +1,30 @@
+//output: ../../../dist/it/menu/index.html, pretty:false
+
+doctype html
+html(lang='it')
+  head
+    include ../../shared/includes/head-it.jade
+    include ../../shared/includes/styles.jade
+      
+  body
+    .app-wrapper
+      
+      include ../../shared/includes/header.jade
+        
+      section
+        img(src='../../assets/images/32.jpg', width='100%')
+          
+        menu
+          ul.font-tertiary.font-weight-4.text-primary.text-shadow
+            li 
+              a(href='..') HOME
+            li 
+              a(href='../servizi') SERVIZI
+            li 
+              a(href='../viaggi-in-croazia') VIAGGI IN CROAZIA
+            li 
+              a(href='../collaborazioni') COLLABORAZIONI
+            li 
+              a(href='../contatti') CONTATTI
+          
+      include ../../shared/includes/footer-menu.jade

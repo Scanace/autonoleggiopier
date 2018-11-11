@@ -1,0 +1,24 @@
+//output: ../../../dist/en/index.html, pretty:false
+
+doctype html
+html(lang='en')
+  head
+    include ../../shared/includes/head-en.jade
+    include ../../shared/includes/styles-home.jade
+      
+  body
+    .app-wrapper
+      
+      include ../../shared/includes/header.jade
+        
+      section
+        img(src='../assets/images/1920x1080.png', alt='Something' width='100%')
+        p.font-tertiary.text-secondary.text-justify
+          | Autonoleggio Pier è sinonimo di puntualità e comfort.
+        p.font-tertiary.text-secondary.text-justify
+          | L’azienda con sede a Levico Terme, svolge con professionalità il servizio di noleggio autoveicoli con autista, leader nel settore da alcuni anni, opera nel settore business e nel privato.
+          | Inoltre svolge settimanalmente viaggi verso la clinica dentale 
+          a(href='https://rident.hr/it/chi-siamo').text-primary.no-decoration Rident
+          |  in Croazia.
+          
+      include ../../shared/includes/footer.jade

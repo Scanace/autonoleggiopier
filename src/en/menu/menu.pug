@@ -1,0 +1,30 @@
+//output: ../../../dist/en/menu/index.html, pretty:false
+
+doctype html
+html(lang='en')
+  head
+    include ../../shared/includes/head-en.jade
+    include ../../shared/includes/styles.jade
+      
+  body
+    .app-wrapper
+      
+      include ../../shared/includes/header.jade
+        
+      section
+        img(src='../../assets/images/32.jpg', width='100%')
+            
+        menu
+          ul.font-tertiary.font-weight-4.text-primary.text-shadow
+            li 
+              a(href='..') HOME
+            li 
+              a(href='../services') SERVICES
+            li 
+              a(href='../trips-to-croatia') TRPS TO CROATIA
+            li 
+              a(href='../collaborations') COLLABORATIONS
+            li 
+              a(href='../contacts') CONTACTS
+          
+      include ../../shared/includes/footer-menu.jade
