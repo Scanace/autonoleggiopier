@@ -24,25 +24,32 @@ body
 
     margin 0;padding 0;
 
-    > header
-      margin 6.5px 0 5px 0
-      > h2
-        margin 0;padding 0;
+    overflow-y: scroll
 
-        font-size 18px
+    > article
+      position relative
+      padding 0 25px;
 
-    p
-      margin 5px 0 2.5px 0;padding 0;
+      > *:first-child
+        margin-top 15px
+      > *:last-child
+        margin-bottom 0
 
-    img
-      width calc(100% + 50px)
-      margin-left -25px
+      > header
+        position relative
 
-    menu
+        height auto
+
+        > h2
+          font-size 18px
+
+      p
+        font-size 15px
+
+    > menu
       position absolute
       top auto;bottom 0;left 0;right 0;
       margin 0;padding 0;
-
 
       ul
         margin 0;padding 0;
@@ -67,17 +74,24 @@ body
 
     height auto
 
+    /* Two items */
+    div:first-of-type > a
+      margin-left auto
+      margin-right 12.5px
+
+    div:last-of-type > a
+      margin-left 12.5px
+      margin-right auto
+
     /* One item */
     div
       width 50%
       float left
 
-    /* Two items */
     div:first-of-type:last-of-type
       width 100%
+      margin 0
       float none
 
-@media screen and (min-width: 950px)
-  .app-wrapper
-    top 0;bottom 0;left 0;right 0;
-    margin 25px auto
+      > a
+        margin auto

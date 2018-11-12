@@ -61,15 +61,15 @@
   box-shadow 0px 2.5px 5px var(--black-shadow)
 
 .button
-  display inline-block
-  padding: 5px 12px
+  display block
+  padding: 5px 11.5px
   width: 100px
+  min-width 100px
 
   color var(--primary-color)
   border 1px solid var(--primary-color)
 
   text-decoration none
-  cursor pointer
 
   font-size 18px
 
