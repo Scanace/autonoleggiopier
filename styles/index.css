@@ -11,16 +11,16 @@ header .col-12 {
   background-position: center;
 }
 header .collaborazioni {
-    background-image: url('/assets/images/collaborazioni/header-background.jpg');
+    background-image: url('./../assets/images/collaborazioni/header-background.jpg');
 }
 header .contatti {
-    background-image: url('/assets/images/contatti/header-background.jpg');
+    background-image: url('./../assets/images/contatti/header-background.jpg');
 }
 header .servizi {
-    background-image: url('/assets/images/servizi/header-background.jpg');
+    background-image: url('./../assets/images/servizi/header-background.jpg');
 }
 header .viaggi-in-croazia {
-    background-image: url('/assets/images/viaggi-in-croazia/header-background.jpg');
+    background-image: url('./../assets/images/viaggi-in-croazia/header-background.jpg');
 }
 header h1 {
   padding: 55.5px 0 !important;
