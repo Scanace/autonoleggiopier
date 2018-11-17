@@ -1,0 +1,35 @@
+body { padding-top: 56px; }
+
+navbar, header { font-family: 'Raleway'}
+
+header .row {
+  max-height: 300px;
+  overflow: hidden;
+}
+header .col-12 {
+  background-size: cover;
+  background-position: center;
+}
+header .collaborazioni {
+    background-image: url('/assets/images/collaborazioni/header-background.jpg');
+}
+header .contatti {
+    background-image: url('/assets/images/contatti/header-background.jpg');
+}
+header .servizi {
+    background-image: url('/assets/images/servizi/header-background.jpg');
+}
+header .viaggi-in-croazia {
+    background-image: url('/assets/images/viaggi-in-croazia/header-background.jpg');
+}
+header h1 {
+  padding: 55.5px 0 !important;
+  font-weight: bold!important;
+  background-color: rgba(0,0,0, 0.65);
+}
+
+@media screen and (min-width: 768px) {
+  .carousel-inner {
+    min-height: 500px;
+  }
+}
