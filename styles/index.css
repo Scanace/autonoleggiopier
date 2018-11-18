@@ -25,11 +25,11 @@ header .viaggi-in-croazia {
 header h1 {
   padding: 55.5px 0 !important;
   font-weight: bold!important;
-  background-color: rgba(0,0,0, 0.65);
+  background-color: rgba(0,0,0, 0.35);
 }
 
 @media screen and (min-width: 768px) {
   .carousel-inner {
-    min-height: 500px;
+    min-height: 600px;
   }
 }
