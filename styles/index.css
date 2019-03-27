@@ -1,6 +1,11 @@
 body { padding-top: 56px; }
 
-navbar, header { font-family: 'Raleway'}
+.navbar img {
+  width: auto;
+  height: 40px;
+}
+
+.navbar, header { font-family: 'Raleway'}
 
 header .row {
   max-height: 300px;
